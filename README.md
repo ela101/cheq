@@ -1,15 +1,13 @@
 # Cheq test
 
-## Introduction
-
 ## Quick Start
 
 ```bash
 
-# Presqusi
+# Prerequisite
 1. make sure you have mysql running
 2. create db 'cheq'
-3. provide db credentials (username and password) under server/db/config/db
+3. provide db credentials (username and password) under server/db/config/database
 
 # Install dependencies
 npm install
