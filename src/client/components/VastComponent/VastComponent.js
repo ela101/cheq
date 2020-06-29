@@ -7,7 +7,7 @@ import {
 } from 'semantic-ui-react';
 import VastItemComponent from '../VastItemComponent/VastItemComponent';
 import { validateFormValues } from '../../utils/utils';
-import { FORM_POSITION_OPTIONS } from '../../utils/contants';
+import { FORM_POSITION_OPTIONS } from '../../utils/constants';
 
 import {
   fetchVastsAsync,

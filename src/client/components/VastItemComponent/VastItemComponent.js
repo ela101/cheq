@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Button, Dropdown, Table } from 'semantic-ui-react';
 import InlineError from '../InlineError/InlineError';
 import { validateFormValues } from '../../utils/utils';
-import { FORM_POSITION_OPTIONS } from '../../utils/contants';
+import { FORM_POSITION_OPTIONS } from '../../utils/constants';
 
 class VastItemComponent extends Component {
   constructor(props) {

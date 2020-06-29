@@ -15,5 +15,6 @@ export const FORM_POSITION_OPTIONS = [
     { key: 'mr', text: 'Middle Right', value: 'middle_right' },
     { key: 'bm', text: 'Bottom Middle', value: 'bottom_middle' },
     { key: 'br', text: 'Bottom Right', value: 'bottom_right' },
+    { key: 'br', text: 'Bottom Left', value: 'bottom_left' },
 ];
 
