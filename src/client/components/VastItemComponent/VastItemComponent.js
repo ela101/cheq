@@ -130,7 +130,6 @@ class VastItemComponent extends Component {
                 defaultValue={vast.width}
                 onChange={this.handleTitleChange}
                 onKeyPress={this.handleUpdateEnter}
-                // onKeyDown={ (evt) => evt.key === 'e' && evt.preventDefault()}
                   />
             </div>
             {formErrors.width && <InlineError text={formErrors.width} />}
