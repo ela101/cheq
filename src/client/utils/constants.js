@@ -1,10 +1,9 @@
 export const FORM_VALIDATION_ERR = {
     VAST_URL_REQUIRED: 'vast url is required',
     VALID_URL: 'must be a valid url',
-    WIDTH_RANGE: 'value should be between 100 and 1000',
-    HEIGHT_RANGE: 'value should be between 100 and 1000',
+    WIDTH_RANGE: 'value should be between 100 and 1000, valid integer',
+    HEIGHT_RANGE: 'value should be between 100 and 1000, valid integer',
     ONE_OPTIONAL_VALUE_IS_REQUIRED: 'please provide width or height or position',
-    INTEGER_VALUE: 'please provide a valid integer'
 }
 
 export const FORM_POSITION_OPTIONS = [

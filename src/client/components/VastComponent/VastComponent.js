@@ -29,8 +29,8 @@ class VastComponent extends Component {
       formValues: {
         vastUrl: '',
         position: '',
-        width: '',
-        height: '',
+        width: 100,
+        height: 100,
       },
       formErrors: {}
     };

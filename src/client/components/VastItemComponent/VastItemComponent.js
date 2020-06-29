@@ -30,7 +30,7 @@ class VastItemComponent extends Component {
     };
   }
 
-  handleTitleChange(event, res) {
+  handleTitleChange(event) {
     const { name } = event.target;
     const { value } = event.target;
     this.setState((prevState) => {
@@ -124,12 +124,14 @@ class VastItemComponent extends Component {
             <div className="ui input">
               <input
                 type="text"
+                pattern="[0-9]*"
                 placeholder="Width"
                 name="width"
                 defaultValue={vast.width}
                 onChange={this.handleTitleChange}
                 onKeyPress={this.handleUpdateEnter}
-              />
+                // onKeyDown={ (evt) => evt.key === 'e' && evt.preventDefault()}
+                  />
             </div>
             {formErrors.width && <InlineError text={formErrors.width} />}
           </Table.Cell>
@@ -174,9 +176,7 @@ class VastItemComponent extends Component {
           {' '}
         </Table.Cell>
         <Table.Cell>
-          {' '}
           {vast.width}
-          {' '}
         </Table.Cell>
         <Table.Cell>
           {' '}
@@ -206,8 +206,8 @@ VastItemComponent.defaultProps = {
   vastById: '',
   vastUrl: '',
   position: '',
-  width: null,
-  height: null,
+  width: 100,
+  height: 100,
 };
 
 VastItemComponent.propTypes = {
