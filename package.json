@@ -16,7 +16,7 @@
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "Validator": "^1.0.8",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.5.0",
